@@ -1,5 +1,4 @@
 {
-  "type": "module",
   "name": "02-api-rest-nodejs",
   "version": "1.0.0",
   "main": "index.js",
@@ -20,6 +19,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
+    "@fastify/cookie": "^11.0.2",
     "dotenv": "^17.2.3",
     "fastify": "^5.6.1",
     "knex": "^3.1.0",
